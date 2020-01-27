@@ -23,8 +23,8 @@
 							<img src="images/main-banner.jpg">
 						</div>
 						<div class="about__collection-text">
-							<h1>Новая коллекция</h1>
-							<p>Бесплатная доставка включена. Предложение действует на сайте loco.com и в магазинах до 18.09.2018. Для получения скидки в магазинах предъявите скриншот данного предложения. В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.</p>
+							<h1 class="about__collection-heading">Новая коллекция</h1>
+							<p class="about__collection-info">Бесплатная доставка включена. Предложение действует на сайте loco.com и в магазинах до 18.09.2018. Для получения скидки в магазинах предъявите скриншот данного предложения. В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.</p>
 							<a href="" class="btn btn-border">Читать дальше</a>
 							<a href="" class="btn btn-arrow">Другие предложения</a>
 						</div>
@@ -45,12 +45,12 @@
 				<div class="container">
 					<div class="row">
 						<div class="one-product-col__image">
-							<img src="images/white-clatch.png">
-							<img src="images/pink-clatch.png">
+							<img class="one-product__image-bg" src="images/white-clatch.png">
+							<img class="one-product__image-main" src="images/pink-clatch.png">
 						</div>
 						<div class="one-product-col__text">
 							<div class="one-product__description">
-								<h2>Кожаный клатч</h2>
+								<h2 class="one-product__name">Кожаный клатч</h2>
 								<span class="one-product__collection">Осенняя коллекция</span>
 								<p>Бесплатная доставка включена. Предложение действует на сайте loco.com и в магазинах до 18.09.2018. Для получения скидки в магазинах предъявите скриншот данного предложения. В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.</p>
 								<div class="one-product__row">
@@ -64,9 +64,9 @@
 								</div>
 								<div class="one-product__row">
 									<div class="one-product__quantity quantity-item">
-										<span class="one-product__down quantity-item-minus">-</span>
-										<input type="text" value="1" name="number">
-										<span class="one-product__up quantity-item-plus">+</span>
+										<button class="one-product__down quantity-item-minus">-</button>
+										<input class="quantity-input" type="text" value="1" name="number">
+										<button class="one-product__up quantity-item-plus">+</button>
 									</div>
 									<a class="btn btn-border btn-add-cart" href="">Добавить в корзину</a>
 								</div>
@@ -78,16 +78,16 @@
 			</section>
 			<section class="total-look">
 				<div class="container">
-					<img src="images/total-look.jpg">
+					<img class="total-look__img" src="images/total-look.jpg">
 					<div class="total-look__about">
 						<div class="total-look__description">
-							<h2>Serene Total Look</h2>
+							<h2 class="total-look__name">Serene Total Look</h2>
 							<span class="total-look__collection">Осенняя коллекция</span>
-							<p>Джинсы, свитер, обувь. В комплект также входит пакет ароматного чая и кружка.</p>
+							<p class="total-look__about">Джинсы, свитер, обувь. В комплект также входит пакет ароматного чая и кружка.</p>
 							<div class="total-look__row">
 								<div class="total-look__quantity quantity-item">
 									<button class="total-look__down quantity-item-minus">-</button>
-									<input type="text" value="1" name="number">
+									<input class="quantity-input" type="text" value="1" name="number">
 									<button class="total-look__up quantity-item-plus">+</button>
 								</div>
 								<a class="btn btn-border btn-add-cart" href="">Добавить в корзину</a>
